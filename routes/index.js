@@ -1,6 +1,6 @@
 var data = require("./../data.json"),
 	config = require("./../config.json"),
-	uuid = require("./../uuid"),
+	uuid = require("uuid"),
 	_ = require("lodash");
 
 module.exports = {
