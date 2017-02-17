@@ -1,5 +1,6 @@
 var data = require("./../data.json"),
 	config = require("./../config.json"),
+	uuid = require("./../uuid"),
 	_ = require("lodash");
 
 module.exports = {
@@ -23,7 +24,7 @@ module.exports = {
 	},
 
 	post: function(req, res, next) {
-		var id = req.body.id || (Math.ceil(Math.random() * 1000)).toString().substring(0, 3),
+		var id = req.body.id || uuid.v4(),
 			returnData = req.body;
 		console.log(req.body);
 		returnData.id = id;
