@@ -26,7 +26,6 @@ module.exports = {
 	post: function(req, res, next) {
 		var id = req.body.id || uuid.v4(),
 			returnData = req.body;
-		console.log(req.body);
 		returnData.id = id;
 		returnData.createdAt = new Date().toISOString();
 
