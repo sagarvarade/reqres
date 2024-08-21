@@ -20,3 +20,12 @@ ReqRes is a bare-bones ExpressJS application.
 * [index.js](https://github.com/benhowdle89/reqres/blob/master/routes/index.js) - this is the main file for the callback routes
 * [config.json](https://github.com/benhowdle89/reqres/blob/master/config.json) - this houses the pagination details & fake session token
 * [data.json](https://github.com/benhowdle89/reqres/blob/master/data.json) - this holds the fake data. This is where you would add a new key to the array and then you could define a callback route for it in `routes/index.js`
+
+To run this One  : 
+> npm install
+> npm install --global gulp-cli
+> node app.js
+
+Check this URL: 
+http://localhost:5000/    
+
